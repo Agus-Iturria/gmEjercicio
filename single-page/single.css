@@ -1,4 +1,4 @@
-body, h4, p{
+body, h4, p,h2, hr{
     margin: 0;
     padding: 0;
     font-family: 'Montserrat';
@@ -64,24 +64,52 @@ nav input{
     border: 1px solid #18A0FB
   }
 
-
-.column{
-    flex-direction: column;
+.columna{
+  width: 70%;
 }
 
+.Table-of-contents{
+  width: 30%;
+}
 
+.Tam{
+  display: flex;
+  width: 300px;
+}
 
+.Post-3{
+  display: flex;
+}
 
+.post-tittle{
+  margin-top: 40px;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: left;
+  gap: 5px;
+}
 
+.Tittle{
+  margin-bottom: 15px;
+}
 
+.Tittle hr{
+  width: 15px;
 
+}
 
+.link{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  gap: 5px;
+  margin-bottom: 15px;
+}
 
-
-
-
-
-
+.link hr{
+  border-color: gray;
+  border: 0.5px solid grey;
+}
 
 
 
