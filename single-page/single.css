@@ -76,10 +76,10 @@ nav input{
   width: 30%;
 }
 
-.Big{
+.big{
   width: 100%;
 }
-.Small{
+.small{
   display: flex;
   width: 300px;
 }
@@ -137,20 +137,30 @@ nav input{
   display: flex;
 }
 
-.share-this{
+.icons{
   display: flex;
+  align-items: baseline;
 }
 
-.butttons{
+.butttons button{
   display: flex;
   justify-content: right;
+  align-items: center;
+  background-color: gray;
+  border-radius: 10px;
+  border-style: none;
 }
 
 
 
+.comments-container{
+  width: 60%;
+}
 
-
-
+.inputs-button{
+  display: flex;
+  justify-content: space-between;
+}
 
 
 
