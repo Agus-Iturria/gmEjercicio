@@ -64,6 +64,10 @@ nav input{
     border: 1px solid #18A0FB
   }
 
+.column{
+  display: flex;
+}
+
 .columna{
   width: 70%;
 }
@@ -72,13 +76,17 @@ nav input{
   width: 30%;
 }
 
-.Tam{
+.Big{
+  width: 100%;
+}
+.Small{
   display: flex;
   width: 300px;
 }
 
 .Post-3{
   display: flex;
+  justify-content: space-between ;
 }
 
 .post-tittle{
@@ -112,14 +120,31 @@ nav input{
 }
 
 
+.lorem{
+  margin: 20px 0 0 0;
+}
 
+.ultima{
+  margin-bottom: 30px;
+}
 
+.hr-lorem{
+  border: 1px solid #6DE4EA;
+  margin-bottom: 30px;
+}
 
+.share-container{
+  display: flex;
+}
 
+.share-this{
+  display: flex;
+}
 
-
-
-
+.butttons{
+  display: flex;
+  justify-content: right;
+}
 
 
 

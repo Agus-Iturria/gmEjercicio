@@ -31,9 +31,8 @@
     </nav>
   </header>
 
-
-
-  <main class="columna">
+  <div class="column">
+    <main class="columna ">
       <div class="post-tittle">
         <a href="">Home</a>
         <p>/ Post Tittle</p>
@@ -49,23 +48,23 @@
         <p>a min ago</p>
       </div>
         <div class="Post">
-          <img src="../imagenes/Rectangle.png" alt="">
+          <img class="Big" src="../imagenes/Rectangle.png" alt="">
   
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet,
+          <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet,
             iaculis aliquet nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
             himenaeos. Aliquam sit amet ipsum ac velit egestas ultrices. Vestibulum et neque id ex semper varius a sit
             amet metus. Vivamus congue dolor eget aliquam hendrerit. Etiam iaculis finibus egestas. Nam viverra urna quis
             odio efficitur malesuada. Maecenas rhoncus enim eu scelerisque rutrum. Pellentesque et mollis enim. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed commodo leo. Suspendisse potenti. Maecenas
             gravida ipsum placerat ligula posuere, ut rhoncus velit eleifend.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet,
+          <p class="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet,
             iaculis aliquet nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
             himenaeos. Aliquam sit amet ipsum ac velit egestas ultrices. Vestibulum et neque id ex semper varius a sit
             amet metus. Vivamus congue dolor eget aliquam hendrerit. Etiam iaculis finibus egestas. Nam viverra urna quis
             odio efficitur malesuada. Maecenas rhoncus enim eu scelerisque rutrum. Pellentesque et mollis enim. Lorem
             ipsum dolor sit amet, consectetur adipiscing elit. Curabitur sed commodo leo. Suspendisse potenti. Maecenas
             gravida ipsum placerat ligula posuere, ut rhoncus velit eleifend.</p>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet,
+          <p class="lorem ultima">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ligula nibh, interdum non enim sit amet,
             iaculis aliquet nunc. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
             himenaeos. Aliquam sit amet ipsum ac velit egestas ultrices. Vestibulum et neque id ex semper varius a sit
             amet metus. Vivamus congue dolor eget aliquam hendrerit. Etiam iaculis finibus egestas. Nam viverra urna quis
@@ -76,32 +75,39 @@
   
       </article>
   
-      <hr>
+      <hr class="hr-lorem">
   
-      <section>
-        <p>Share this</p>
-        <a href=""><img src="../imagenes/akar-icons_facebook-fill.png" alt=""></a>
-        <a href=""><img src="../imagenes/ant-design_twitter-circle-filled.png" alt=""></a>
-        <a href=""><img src="../imagenes/akar-icons_instagram-fill.png" alt=""></a>
-  
-        <button>design</button>
-        <button>web</button>
+      <section class="share-container">
+        <div class="share-this">
+          <p>Share this</p>
+          <a href=""><img src="../imagenes/akar-icons_facebook-fill.png" alt=""></a>
+          <a href=""><img src="../imagenes/ant-design_twitter-circle-filled.png" alt=""></a>
+          <a href=""><img src="../imagenes/akar-icons_instagram-fill.png" alt=""></a>
+        </div>
+
+        <div class="buttons">
+          <button>design</button>
+          <button>web</button>
+        </div>
+
       </section>
   
       <section>
         <h4>More posts</h4>
-        <article class="Post-3">
-          <img class= "Tam" src="../imagenes/Rectangle.png" alt="">
-          <h4>Post Title</h4>
-        </article>
-        <article>
-          <img class= "Tam" src="../imagenes/Rectangle.png" alt="">
-          <h4>Post Title</h4>
-        </article>
-        <article>
-          <img class= "Tam" src="../imagenes/Rectangle.png" alt="">
-          <h4>Post Title</h4>
-        </article>
+        <div class="Post-3">
+          <article>
+              <img class= "Small" src="../imagenes/Rectangle.png" alt="">
+              <h4>Post Title</h4>
+          </article>
+          <article>
+              <img class= "Small" src="../imagenes/Rectangle.png" alt="">
+              <h4>Post Title</h4>
+          </article>
+          <article>
+              <img class= "Small" src="../imagenes/Rectangle.png" alt="">
+              <h4>Post Title</h4>
+          </article>
+        </div>
       </section>
   
       <section>
@@ -143,8 +149,8 @@
       </section>
     </main>
   
-    <aside>
-      <div class="Table-of-contents">
+
+    <aside class="Table-of-contents">
         <h3>Table of contents</h3>
         <ul>
           <li><a href="">lorem ipsum</a></li>
@@ -152,11 +158,11 @@
           <li><a href="">lorem ipsum</a></li>
           <li><a href="">lorem ipsum</a></li>
           <li><a href="">lorem ipsum</a></li>
-        </ul>
-      </div>
-      
+        </ul>      
   
     </aside>    
+  </div>
+  
 
 
 
